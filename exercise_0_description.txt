@@ -1,0 +1,18 @@
+1) Set up jQuery
+2) Set up your own custom script file
+3) Wrap your script in the jQuery document.ready function so that it only executes once the page is ready.
+4) On page load, perform the following operations:
+    Hide the author heading
+    Show the date heading
+    Slide the header element onto the page
+    Fade the first paragraph element off the page
+    Add a class to the second paragraph element that applies at least one custom style.
+    Set the content of the third paragraph to something new -- a single word in the new content should be bold or italic.
+    Log the height of the <body> element, including padding, to the console.
+    Add one more paragraph after the final paragraph in <main>
+    Add a <div> that contains an image before <main>
+5) Add a button to the page that, when clicked, toggles the presence of a class that defines a background color on the <main> element.
+6) Add a button before the fourth paragraph in <main>. When clicked, this button should slide the fourth paragraph up or down, depending on whether it is currently visible or not.
+7) Add a jQuery event listener such that when the user presses the 'm' key the font-size of paragraph content increases by 1px. Add a similar function that decreases by 1px when the user presses the 'n' key.
+8) When the user clicks anywhere in the footer, animate the link in the footer to the right by 50px over a period of two seconds.
+9) When the user clicks the Submit button below the text input, log the value of the input box to the console.
