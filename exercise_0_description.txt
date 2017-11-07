@@ -16,3 +16,11 @@
 7) Add a jQuery event listener such that when the user presses the 'm' key the font-size of paragraph content increases by 1px. Add a similar function that decreases by 1px when the user presses the 'n' key.
 8) When the user clicks anywhere in the footer, animate the link in the footer to the right by 50px over a period of two seconds.
 9) When the user clicks the Submit button below the text input, log the value of the input box to the console.
+
+10) Select one of the paragraphs in <main> then use the parent() method to add a class to <main>. This class should apply some noticeable style to the <main> element.
+11) Select the <ul> on your page, then use the children() selector to add a class to each of the list items. This class should apply some noticeable style to the list items.
+12) Select the <body> element, then use the find() method and another jQuery method to add a plus sign or an asterisk to the beginning of every element on the page.
+13) Select the first paragraph element in <main>, then use the siblings() method to add a class to all paragraph elements at the same level in the DOM tree.
+14) Create a button, then when that button is clicked select the second paragraph element in <main>, then use the .prev() and .next() methods to toggle a class on the first and third paragraph elements. This class should apply a noticeable style.
+15) When the user presses the space bar, toggle a class on all html elements that are children of <body> and are not() a <footer> element.
+16) Create a button that when clicked selects <main> then use the first() and last() methods to fade in the first and last paragraphs inside <main> if they aren't visible and fade out those same elements if they are visible.
