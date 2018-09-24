@@ -25,5 +25,5 @@
 15) When the user presses the space bar, toggle a class on all html elements that are children of <body> and are not() a <footer> element.
 16) Create a button that when clicked selects <main> then use the first() and last() methods to fade in the first and last paragraphs inside <main> if they aren't visible and fade out those same elements if they are visible.
 
-17) use .load() to make and AJAX call to and insert the contents of https://tallgrassschool.com/cohort_1/data/students.html to a new html div located right before the <footer> element.
-18) user $.getJSON() to make an AJAX call to https://tallgrassschool.com/cohort_1/data/students.json, and then a for loop to build a div for each in the students array that contains the name and favorite animal of that student.
+17) use .load() to make and AJAX call to and insert the contents of https://tallgrassschool.com/cohort_3/data/students.html to a new html div located right before the <footer> element. Give your .load() method a callback that logs a message to the console when the method is completed.
+18) user $.getJSON() to make an AJAX call to https://tallgrassschool.com/cohort_3/data/students.json. In the callback make a for loop to build a div for each in the students array that contains the name and favorite animal of that student, then logs a message to the console once that the process is completed.
