@@ -26,4 +26,4 @@
 16) Create a button that when clicked selects <main> then use the first() and last() methods to fade in the first and last paragraphs inside <main> if they aren't visible and fade out those same elements if they are visible.
 
 17) use .load() to make and AJAX call to and insert the contents of https://tallgrassschool.com/cohort_3/data/students.html to a new html div located right before the <footer> element. Give your .load() method a callback that logs a message to the console when the method is completed.
-18) user $.getJSON() to make an AJAX call to https://tallgrassschool.com/cohort_3/data/students.json. In the callback make a for loop to build a div for each in the students array that contains the name and favorite animal of that student, then logs a message to the console once that the process is completed.
+18) user $.getJSON() to make an AJAX call to https://tallgrassschool.com/cohort_3/data/people.json. In the callback make a for loop to build a div for each in the people array that contains the name and favorite holiday of that person, stick those divs in the DOM somewhere, then log a message to the console once that the process is completed.
